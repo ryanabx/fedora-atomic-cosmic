@@ -42,7 +42,7 @@ jobs:
       - name: Maximize build space
         uses: ublue-os/remove-unwanted-software@v8
         with:
-          remove-android: 'true'
+          remove-codeql: 'true'
 
       - name: Checkout Push to Registry action
         uses: actions/checkout@v4
